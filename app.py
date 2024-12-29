@@ -34,7 +34,7 @@ def train_model(data):
     return model, vectorizer, report
 
 # Train Model Menu
-if menu_option == "Latih/Train Model":
+if menu_option == "Train Model":
     st.title("Latih/Train a Custom Model")
     st.write("""
     Upload dataset untuk melatih model klasifikasi polisemi. Dataset harus berupa file CSV dengan kolom-kolom berikut...:

@@ -8,7 +8,7 @@ from sklearn.metrics import classification_report
 
 # Initialize sidebar menu
 st.sidebar.title("Menu")
-menu_option = st.sidebar.selectbox("Pilih Menu:", ["Sistem Klasifikasi Polisemi", "Train Model"])
+menu_option = st.sidebar.selectbox("Pilih Menu:", ["Sistem Identifikasi Polisemi", "Train Model"])
 
 # Function to train a custom model
 def train_model(data):
@@ -78,7 +78,7 @@ elif menu_option == "Sistem Klasifikasi Polisemi":
     
     # Model selection
     model_option = st.radio(
-        "Pilih Klasifikasi Model:",
+        "Pilih Model:",
         ("Upload Model",)
     )
     

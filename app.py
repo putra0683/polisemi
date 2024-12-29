@@ -88,7 +88,7 @@ elif menu_option == "Sistem Klasifikasi Polisemi":
             model, vectorizer = pickle.load(uploaded_model)
             st.success("Model sudah berhasil terpasang!")
         else:
-            st.info("Silahkan upload model untuk mulai klasifikasi.")
+            st.info("Silahkan upload model untuk mulai identifikasi polisemi.")
     
     
     # Input for classification

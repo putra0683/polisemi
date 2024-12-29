@@ -7,7 +7,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report
 
 # Initialize sidebar menu
-st.sidebar.title("Menu")
+st.sidebar.title("Muh Yamin")
 menu_option = st.sidebar.selectbox("Pilih Menu:", ["Identifikasi Polisemi", "Train Model"])
 
 # Function to train a custom model

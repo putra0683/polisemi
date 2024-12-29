@@ -113,10 +113,10 @@ elif menu_option == "Identifikasi Polisemi":
             
             if result:
                 st.success(result)
-    st.write("""MuhYamin""")
+    
     st.markdown(
     """
-    <div style="text-align: center; font-size: 24px; font-weight: bold;">
+    <div style="text-align: center; font-size: 12px; font-weight: italic;">
         MuhYamin
     </div>
     """,

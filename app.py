@@ -74,7 +74,7 @@ elif menu_option == "Sistem Klasifikasi Polisemi":
     st.title("Sistem Klasifikasi Polisemi")
     st.write("""
     Aplikasi ini mengidentifikasi apakah suatu kata dalam bahasa Indonesia bersifat polisemi (yaitu, memiliki banyak arti dalam konteks yang berbeda). 
-    Anda dapat memilih untuk menggunakan model IndoBERT atau mengunggah model khusus.""")
+""")
     
     # Model selection
     model_option = st.radio(

@@ -113,7 +113,8 @@ elif menu_option == "Identifikasi Polisemi":
             
             if result:
                 st.success(result)
-    
+
+    st.write(""" """)
     st.markdown(
     """
     <div style="text-align: center; font-size: 12px; font-weight: italic;">

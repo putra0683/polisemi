@@ -113,6 +113,10 @@ elif menu_option == "Identifikasi Polisemi":
             
             if result:
                 st.success(result)
-    st.write("""
-    MuhYamin
-    """)
+    st.write("""MuhYamin""")
+    lebar = 20
+
+# Mengatur teks agar berada di tengah
+teks_tengah = teks.center(lebar)
+
+print(MuhYamin)

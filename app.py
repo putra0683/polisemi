@@ -72,8 +72,8 @@ if menu_option == "Train Model":
 elif menu_option == "Identifikasi Polisemi":
     st.title("Identifikasi Polisemi")
     st.write("""
-    Aplikasi ini mengidentifikasi apakah suatu kata dalam bahasa Indonesia bersifat polisemi (memiliki banyak arti dalam konteks yang berbeda)- MuhYamin. 
-    """)
+    Aplikasi ini mengidentifikasi apakah suatu kata dalam bahasa Indonesia bersifat polisemi (memiliki banyak arti dalam konteks yang berbeda). 
+    """- MuhYamin)
     
     # Model selection
     model_option = st.radio(

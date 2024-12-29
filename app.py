@@ -115,7 +115,7 @@ elif menu_option == "Identifikasi Polisemi":
                 st.success(result)
 
     paragraf = """ """
-    st.paragraf(""" """)
+    st.write(paragraf)
     st.markdown(
     """
     <div style="text-align: center; font-size: 12px; font-weight: italic;">

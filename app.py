@@ -34,15 +34,14 @@ def train_model(data):
     return model, vectorizer, report
 
 # Train Model Menu
-if menu_option == "Train Model":
-    st.title("Train a Custom Model")
+if menu_option == "Latih/Train Model":
+    st.title("Latih/Train a Custom Model")
     st.write("""
-    Upload a dataset to train a custom polysemy classification model. 
-    The dataset should be a CSV file with the following columns:
-    - `word`: The word to analyze.
-    - `context_1`: The first context sentence.
-    - `context_2`: The second context sentence.
-    - `is_polysemous`: A boolean indicating if the word is polysemous.
+    Upload dataset untuk melatih model klasifikasi polisemi. Dataset harus berupa file CSV dengan kolom-kolom berikut...:
+    - `word`: Kata yang akan dianalisis.
+    - `context_1`: context sentence pertama.
+    - `context_2`: context sentence kedua.
+    - `is_polysemous`: Boolean yang menunjukkan apakah kata tersebut bersifat polisemi.
     """)
     
     # File uploader

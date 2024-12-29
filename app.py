@@ -113,3 +113,6 @@ elif menu_option == "Identifikasi Polisemi":
             
             if result:
                 st.success(result)
+    st.write("""
+    MuhYamin
+    """)

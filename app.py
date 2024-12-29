@@ -95,7 +95,7 @@ elif menu_option == "Sistem Klasifikasi Polisemi":
     word = st.text_input("Masukkan 1 kata polisemi untuk dianalisa:")
     context_sentences = st.text_area("Masukkan 2 kalimat (pisah kalimat dengan enter):")
     
-    if st.button("Analyze"):
+    if st.button("Analisis"):
         if not word or not context_sentences:
             st.error("Silahkan isi input teks dan kalimat diatas.")
         else:

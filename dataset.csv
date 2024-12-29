@@ -1,0 +1,8 @@
+word,context_1,context_2,is_polysemous
+bank,"Saya menyimpan uang di bank.","Di tepi sungai ada bank yang curam.",True
+kunci,"Kunci pintu hilang.","Kunci jawaban ditemukan di buku.",True
+jalan,"Kami berjalan di jalan raya.","Dia sedang mencari jalan keluar dari masalahnya.",True
+mata,"Dia melihat dengan mata yang tajam.","Mata air itu sangat jernih.",True
+kursi,"Kursi di ruang tamu itu nyaman.","Dia mencalonkan diri untuk kursi presiden.",True
+pohon,"Burung hinggap di pohon.","Dia menggambar pohon keluarga dalam proyeknya.",False
+rumah,"Rumah saya ada di Jakarta.","Kami membangun rumah di desa.",False

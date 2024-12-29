@@ -8,7 +8,7 @@ from sklearn.metrics import classification_report
 
 # Initialize sidebar menu
 st.sidebar.title("Menu")
-menu_option = st.sidebar.selectbox("Pilih Menu:", ["Sistem Identifikasi Polisemi", "Train Model"])
+menu_option = st.sidebar.selectbox("Pilih Menu:", ["Identifikasi Polisemi", "Train Model"])
 
 # Function to train a custom model
 def train_model(data):
@@ -70,8 +70,8 @@ if menu_option == "Train Model":
             )
 
 # Classify Polysemy Menu
-elif menu_option == "Sistem Identifikasi Polisemi":
-    st.title("Sistem Identifikasi Polisemi")
+elif menu_option == "Identifikasi Polisemi":
+    st.title("Identifikasi Polisemi")
     st.write("""
     Aplikasi ini mengidentifikasi apakah suatu kata dalam bahasa Indonesia bersifat polisemi (yaitu, memiliki banyak arti dalam konteks yang berbeda). 
     """)

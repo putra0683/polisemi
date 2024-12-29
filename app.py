@@ -8,7 +8,7 @@ from sklearn.metrics import classification_report
 
 # Initialize sidebar menu
 st.sidebar.title("Menu")
-menu_option = st.sidebar.selectbox("Pilih Menu:", ["Polisemi", "Train Model"])
+menu_option = st.sidebar.selectbox("Pilih Menu:", ["Sistem Klasifikasi Polisemi", "Train Model"])
 
 # Function to train a custom model
 def train_model(data):
@@ -74,7 +74,7 @@ elif menu_option == "Sistem Klasifikasi Polisemi":
     st.title("Sistem Klasifikasi Polisemi")
     st.write("""
     Aplikasi ini mengidentifikasi apakah suatu kata dalam bahasa Indonesia bersifat polisemi (yaitu, memiliki banyak arti dalam konteks yang berbeda). 
-""")
+    """)
     
     # Model selection
     model_option = st.radio(
@@ -88,14 +88,14 @@ elif menu_option == "Sistem Klasifikasi Polisemi":
             model, vectorizer = pickle.load(uploaded_model)
             st.success("Model sudah berhasil terpasang!")
         else:
-            st.info("Silahkan upload model untuk mulai identifikasi polisemi.")
+            st.info("Silahkan upload model untuk mulai klasifikasi.")
     
     
     # Input for classification
-    word = st.text_input("Masukkan 1 kata polisemi untuk dianalisa:")
-    context_sentences = st.text_area("Masukkan 2 kalimat (pisah kalimat dengan enter):")
+    word = st.text_input("Masukkan kata untuk dianalisa:")
+    context_sentences = st.text_area("Masukkan kalimat (pisah kalimat dengan enter):")
     
-    if st.button("Analisis"):
+    if st.button("Analyze"):
         if not word or not context_sentences:
             st.error("Silahkan isi input teks dan kalimat diatas.")
         else:

@@ -70,8 +70,8 @@ if menu_option == "Train Model":
             )
 
 # Classify Polysemy Menu
-elif menu_option == "Sistem Klasifikasi Polisemi":
-    st.title("Sistem Klasifikasi Polisemi")
+elif menu_option == "Sistem Identifikasi Polisemi":
+    st.title("Sistem Identifikasi Polisemi")
     st.write("""
     Aplikasi ini mengidentifikasi apakah suatu kata dalam bahasa Indonesia bersifat polisemi (yaitu, memiliki banyak arti dalam konteks yang berbeda). 
     """)

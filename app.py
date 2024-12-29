@@ -78,7 +78,7 @@ elif menu_option == "Identifikasi Polisemi":
     
     # Model selection
     model_option = st.radio(
-        "Pilih Model:",
+        "Model:",
         ("Upload Model",)
     )
     
